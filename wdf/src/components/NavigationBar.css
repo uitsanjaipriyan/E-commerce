@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(55, 166, 202);;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dde0e2;
+}
+li{
+    display: flex;
+   position: relative;
+   left: 300px;
+ 
+   
+}
+nav{
+    margin-top: 20px;
+}
+nav h1{
+    font-weight: 700;
+    font-size: 50px;
+    transform: scale(1, 1);
+    
+
+    
+}
+nav{
+   border: 1px solid  whitesmoke;
+   width: 1500px;
+   height: 90px;
+   border-radius: 30px;
+   background-color: rgb(28, 29, 30);
+   position: relative;
+   left: 10px;
+   top: 10px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+}
+button{
+    position: relative;
+    right: 280px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(16, 15, 15);
+    background-color: #dde0e2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.viewcart-button{
+    transition: transform 0.3s ease-in-out;
+    margin-right: 120px;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+}
+.nav {
+    font-size: 16px;
+    font-weight: bold;
+    color: #efe5e5;
+    border-radius: 5px;
+    transition: color 0.3s;
+    margin-top: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav:hover {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+    transform: translateY(-5px);
+   
+}
+li > .nav{
+     position: relative;
+     left: 110px;
+     text-shadow: #007bff;
+}
+.viewcart-button :hover{
+    transform: translateY(-5px) scale(1.1);
+    cursor: pointer;
+}

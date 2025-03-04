@@ -1,0 +1,48 @@
+.social-container {
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 100px;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-top: 50px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    
+}
+
+.instagram { 
+    position: relative;
+    background: #db2234; 
+      
+}
+.facebook { background: #1877F2; }
+.github { background: #333; }
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}

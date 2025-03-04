@@ -1,0 +1,57 @@
+:root {
+    height: 2000px;
+}
+
+.subscribe {
+    position: relative;
+    top: 200px;
+    border: 1px solid black;
+    height: 400px;
+    background-color: black;
+    width: 1400px;
+    margin: 0 auto;
+    color: rgb(248, 248, 242);
+  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+}
+
+.subscribe h2 {
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    margin: 0;
+}
+
+.footer-container{
+      display: flex;
+      height: 200px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    position: relative;
+    left: 400px;
+    align-items: center;
+    bottom: 220px;
+}
+
+.footer-column p {
+    font-size: 16px;
+    color: grey;
+    margin: 5px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer{
+    margin-top: 140px;
+    margin-left: 20px;
+}
